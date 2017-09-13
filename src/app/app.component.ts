@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Thibault';
+  names: string[] = ['Ironman', 'Captain America'];
+
+  sayHello():void {
+    alert('HELLO')
+  }
 }
